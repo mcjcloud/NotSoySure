@@ -27,10 +27,6 @@ export default class CameraScreen extends Component {
     }
 
     takePicture = async function() {
-        // Animated.timing(this.offsetAnimation, {
-        //     toValue: -SCREEN_HEIGHT + 100,
-        //     duration: '1000',
-        // }).start();
         if (this.camera) {
             const options = { quality: 0.5, base64: true };
             const data = await this.camera.takePictureAsync(options);
@@ -73,7 +69,6 @@ export default class CameraScreen extends Component {
         })
         .then(data => data.json())
         .then(json => {
-            // Alert.alert('Results', `Vegan: ${json.vegan}\nNon-vegan: ${json.nonvegan}\nFlagged: ${json.flagged}`);
             this.setState({ image: undefined });
             this.props.navigation.navigate('ResultsView', {
                 results: json,

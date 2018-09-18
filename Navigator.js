@@ -1,7 +1,6 @@
 import React from 'react';
 import { createMaterialTopTabNavigator, createStackNavigator } from 'react-navigation';
 import CameraScreen from './screens/CameraScreen';
-import SearchScreen from './screens/SearchScreen';
 import ResultsView from './screens/ResultsView';
 
 export default createMaterialTopTabNavigator(
