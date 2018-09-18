@@ -1,5 +1,5 @@
 # Not Soy Sure?
-Not Soy Sure? is a React Native application developed at HackRice aimed at helping those who cannot eat animal products such as Vegans. The application uses MLKit to recognize the ingredients from the labels of packaged foods and list any that are non-vegan.
+*Not Soy Sure?* is a React Native application developed at HackRice aimed at helping those who cannot eat animal products such as Vegans. The application uses MLKit to recognize the ingredients from the labels of packaged foods and list any that are non-vegan.
 
 ## How does it work?
 To use, simply take a picture of the ingredients on any package, and the application will display any non-vegan or flagged ingredients.
